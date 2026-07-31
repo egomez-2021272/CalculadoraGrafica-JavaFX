@@ -1,0 +1,50 @@
+.buttonIgual{
+    -fx-background-color: #20BDFF;
+    -fx-text-fill: #16222A;
+    -fx-border-color: #5C8DAC;
+    -fx-background-radius: 15, 15, 15, 15;
+}
+
+.buttonIgual:hover{
+    -fx-background-color: linear-gradient(#FFFFFF, #B1C9E8);
+    -fx-background-radius: 15, 15, 15, 15;
+}
+
+.buttonIgual:pressed{
+    
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #3A6073; 
+    -fx-background-radius: 15, 15, 15, 15;
+}
+
+    
+
+.fondo{
+    -fx-background-color: linear-gradient(to right, #16222A, #3A6073);
+}   
+
+.buttonBorrar{
+    -fx-background-color: linear-gradient(to right, #E52D27, #B31217);
+}
+
+.buttonNumeros{
+    -fx-background-color: linear-gradient(to right, #BBD2C5, #536976);
+}
+
+.buttonNumeros:hover{
+    -fx-background-color: linear-gradient(#FFFFFF, #B1C9E8);
+    -fx-background-radius: 15, 15, 15, 15;
+    
+}
+
+.buttonNumeros:pressed{
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #8E9EAB; 
+    -fx-background-radius: 15, 15, 15, 15;
+    
+}
+
+.buttonMasMenos{
+    -fx-background-color: linear-gradient(to right, #4B6CB7, #16222A
+);
+}
